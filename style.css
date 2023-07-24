@@ -1,0 +1,106 @@
+
+*{
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #nav{
+    height: 145px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    justify-content: flex-start;
+    position:fixed;
+    gap: 50px;
+    z-index: 99;/*to make nav at front always */
+  }
+  #nav img{
+    width: 150px;
+    height: 50px;
+  }
+
+  #cursor{
+    height: 20px;
+    width: 20px;
+    background-color: #FFBE0B;
+    position: fixed;
+    z-index: 99;
+    border-radius: 50%;
+  }
+  #cursorblr{
+    height: 500px;
+    width: 500px;
+    background-color: #f1cb624b;
+    position: fixed;
+    border-radius: 50%;
+    z-index: 9;
+    filter: blur(40px);
+  }
+
+  video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+  }
+  #main{
+    position: relative;
+    background-color: rgba(0,0, 0, 0.40); 
+  }
+  #page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 10;
+  }
+
+  #page1 h1{
+    font-size: 140px;
+    font-weight: 900;
+    position: relative;
+  }
+
+  #page1 h1::before{
+    content: "BE HEALTHY. BE SAFE.";
+    position: absolute;
+    color: #000;
+    top: -5px;
+    left: -5px;
+    -webkit-text-stroke: 1.5px rgb(255, 190, 11);
+    z-index: -1;
+  }
+
+  #page1 h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #page1 p{
+    font-size: 19px;
+    font-weight: 500;
+    width: 40%;
+  }
+  #page2{
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+  }
+ 
