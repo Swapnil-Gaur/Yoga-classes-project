@@ -147,4 +147,33 @@ body {
     }
 
   }
+
+  #aboutus{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+  }
+  #aboutus img{
+    height:250px;
+    width:250px;
+    border-radius: 7px;
+  }
+  #about-us{
+    width: 40%;
+    text-align: center;
+  }
+  #about-us h2{
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  #about-us p{
+    font-size: 20px;
+    line-height: 26px;
+  }
  
