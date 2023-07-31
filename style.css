@@ -204,7 +204,7 @@ body {
   background-image: url(https://images.unsplash.com/photo-1616699002805-0741e1e4a9c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
  }
 
- .overlay{
+ .overlay {
   height: 100%;
   width: 100%;
   background-color: #FFBE0B;
@@ -212,19 +212,22 @@ body {
   padding-top: 160px;
   opacity: 0;
   transition: all ease 0.6s;
- }
- .overlay h4{
+}
+.overlay h4 {
   color: #000;
-  font-size: 23px;
-  font-weight: 900;
+  font-size: 40px;
   text-transform: uppercase;
   white-space: nowrap;
-  margin-bottom: 10px;
- }
- .overlay p{
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.overlay p {
   color: #000;
   font-size: 18px;
- }
-  .card:hover .overlay{
-    opacity: 1;
-  }
+}
+.card:hover .overlay {
+  opacity: 1;
+}
+.card:hover {
+  transform: rotate3d(-1, 1, 0, 20deg);
+}
